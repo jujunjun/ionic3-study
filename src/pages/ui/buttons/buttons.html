@@ -1,0 +1,110 @@
+<!--
+  Generated template for the ButtonsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>buttons</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <br><br><br><br><br><br>
+  <h2>Basic Usage</h2>
+  <button ion-button color="light">Light</button>
+  <button ion-button>Default</button>
+  <button ion-button color="secondary">Secondary</button>
+  <button ion-button color="danger">Danger</button>
+  <button ion-button color="dark">Dark</button>
+
+  <hr>
+  <h2>Outline Style</h2>
+  <button ion-button color="light" outline>Light Outline</button>
+  <button ion-button outline>Primary Outline</button>
+  <button ion-button color="secondary" outline>Secondary Outline</button>
+  <button ion-button color="danger" outline>Danger Outline</button>
+  <button ion-button color="dark" outline>Dark Outline</button>
+
+  <hr>
+  <h2>Clear Style</h2>
+  <button ion-button color="light" clear>Light Clear</button>
+  <button ion-button clear>Primary Clear</button>
+  <button ion-button color="secondary" clear>Secondary Clear</button>
+  <button ion-button color="danger" clear>Danger Clear</button>
+  <button ion-button color="dark" clear>Dark Clear</button>
+
+  <hr>
+  <h2>Round Buttons</h2>
+  <button ion-button color="light" round>Light Round</button>
+  <button ion-button round>Primary Round</button>
+  <button ion-button color="secondary" round>Secondary Round</button>
+  <button ion-button color="danger" round>Danger Round</button>
+  <button ion-button color="dark" round>Dark Round</button>
+
+  <hr>
+  <h2>Block Buttons</h2>
+  <button ion-button block>Block Button</button>
+
+  <hr>
+  <h2>Full Buttons</h2>
+  <button ion-button full>Full Button</button>
+
+  <hr>
+  <h2>Button Sizes</h2>
+  <button ion-button small>Small</button>
+<button ion-button>Default</button>
+<button ion-button large>Large</button>
+
+  <hr>
+  <h2>Icon Buttons</h2>
+  <!-- Float the icon left -->
+  <button ion-button icon-left>
+    <ion-icon name="home"></ion-icon>
+    Left Icon
+  </button>
+  <!-- Float the icon right -->
+  <button ion-button icon-right>
+    Right Icon
+    <ion-icon name="home"></ion-icon>
+  </button>
+  <!-- Only icon (no text) -->
+  <button ion-button icon-only>
+    <ion-icon name="home"></ion-icon>
+  </button>
+
+  <hr>
+  <h2>Buttons In Components</h2>
+  <ion-header>
+      <ion-navbar>
+        <ion-buttons start>
+          <button ion-button icon-only>
+            <ion-icon name="contact"></ion-icon>
+          </button>
+        </ion-buttons>
+        <ion-navbar>
+            <ion-title>buttons</ion-title>
+          </ion-navbar>
+        <ion-buttons end>
+          <button ion-button icon-only>
+            <ion-icon name="search"></ion-icon>
+          </button>
+        </ion-buttons>
+      </ion-navbar>
+    </ion-header>
+    
+    <ion-list>
+      <ion-item>
+        Left Icon Button
+        <button ion-button outline item-end icon-left>
+          <ion-icon name="star"></ion-icon>
+          Left Icon
+        </button>
+      </ion-item>
+    </ion-list>
+
+</ion-content>

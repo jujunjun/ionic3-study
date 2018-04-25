@@ -1,0 +1,29 @@
+<!--
+  Generated template for the PopoverPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+    <ion-navbar>
+      <ion-title>Popovers</ion-title>
+      <ion-buttons end>
+        <button ion-button icon-only (click)="presentPopover($event)">
+          <ion-icon name="more"></ion-icon>
+        </button>
+      </ion-buttons>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content #popoverContent padding class="popover-page">
+    <div #popoverText class="text-to-change">
+      锄禾日当午<br>
+      汗滴禾下土<br>
+      谁知盘中餐<br>
+      粒粒皆辛苦
+    </div>
+
+</ion-content>
